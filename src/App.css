@@ -1,0 +1,121 @@
+h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  /* Change the color as desired */
+  text-align: center;
+  padding: 20px 0;
+  /* Add padding to the top and bottom */
+  margin: 0;
+  /* Add a background color */
+  border-bottom: 2px solid #ccc;
+  /* Add a border to the bottom */
+}
+
+/* App.css */
+.input-container {
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.input-container input[type="file"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-container button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.main-background {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./images/med.jpg');
+  /* Set the image as background */
+  background-size: cover;
+  /* Cover the entire container */
+  background-position: center;
+  /* Center the image */
+  display: flex;
+  /* Enable flexbox layout */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+  position: fixed;
+}
+
+.content {
+  text-align: center;
+  /* Center the content */
+}
+
+
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow-y: auto;
+}
+
+/* CSS for the table */
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead th {
+  background-color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+}
+
+/* Optional: Add hover effect to table rows */
+tbody tr:hover {
+  background-color: black
+}
+
+.sum-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}

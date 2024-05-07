@@ -13,4 +13,5 @@ For Frontend:
 import axios from "axios";
 
 For Connection with supabase:
-
+import { supabase } from "./config/supabaseconnect";
+      --------npm install @supabase/supabase-js

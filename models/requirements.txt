@@ -9,4 +9,8 @@ import numpy as np
 from PIL import Image
 import pytesseract
 
-For Re
+For Frontend:
+import axios from "axios";
+
+For Connection with supabase:
+

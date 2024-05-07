@@ -1,0 +1,12 @@
+For Python/Machine Learning:
+
+import io
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+import cv2
+import re
+import numpy as np
+from PIL import Image
+import pytesseract
+
+For Re
